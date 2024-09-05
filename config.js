@@ -13,7 +13,7 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/hakisolos/Queen_Nikka";
+global.github = process.env.GITHUB || "https://github.com/Jim-bot17/Queen_Nikka";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaqgxNt5q08c9XMItG3P";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaqgxNt5q08c9XMItG3P";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/zdD9xsf.mp4";
@@ -49,10 +49,10 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_NIKKA™`",
-  author: process.env.PACK_AUTHER || "QUEEN_NIKKA",
+  author: process.env.PACK_AUTHER || "Festus-Jnr",
   packname: process.env.PACK_NAME || "N I K K A",
   botname: process.env.BOT_NAME || "QUEEN_NIKKA",
-  ownername: process.env.OWNER_NAME || "HAKI",
+  ownername: process.env.OWNER_NAME || "Festus-Jnr",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
